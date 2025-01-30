@@ -1,7 +1,7 @@
 {
-  "name": "langflow-embedded-chat",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@mede/langflow-embedded-chat",
+  "version": "1.0.7",
+  "private": false,
   "dependencies": {
     "@r2wc/react-to-web-component": "^2.0.2",
     "@testing-library/jest-dom": "^5.16.5",
@@ -53,5 +53,13 @@
   },
   "devDependencies": {
     "webpack-cli": "^5.1.4"
+  },
+  "main": "index.ts",
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "publishConfig": {
+    "registry": "https://nexus.medeanalytics.com/repository/npm-mede/"
   }
 }
